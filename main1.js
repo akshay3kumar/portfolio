@@ -119,7 +119,7 @@ function seekUpdate() {
 
     seek_slider.value = seekPosition;
 
-    let currentMinutes = Math.floor(curr_track.currentTime / 60);
+    let currentMinutes = Mat.floor(curr_track.currentTime / 60);
     let currentSeconds = Math.floor(curr_track.currentTime - currentMinutes * 60);
     let durationMinutes = Math.floor(curr_track.duration / 60);
     let durationSeconds = Math.floor(curr_track.duration - durationMinutes * 60);
